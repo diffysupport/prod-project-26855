@@ -1,0 +1,62 @@
+basic:
+    name: 'Panorama Resort'
+    environments:
+        production: 'https://www.panoramaresort.com'
+        staging: 'https://new.panoramaresort.com'
+        development: ''
+    breakpoints:
+        - 375
+        - 768
+        - 1440
+    pages:
+        - /
+        - /planning/the-approach
+        - /planning
+        - /planning/getting-here
+        - /planning/racing-bookings
+        - /planning/deals-and-packages
+        - /planning/about
+        - /while-you-are-here
+        - /while-you-are-here/mountain-stats
+        - /while-you-are-here/map
+        - /while-you-are-here/village-map
+        - /while-you-are-here/ski-ride-school
+        - /panorama-today
+        - /panorama-today/summer-report
+        - /panorama-today/hours-of-operation
+        - /panorama-today/mountain-webcams
+        - /panorama-today/news
+        - /panorama-today/panorama-media-centre
+        - /be-part-of-panorama
+        - /be-part-of-panorama/the-panorama-foundation
+        - /be-part-of-panorama/our-partners
+        - /be-part-of-panorama/employment-at-panorama/career-opportunities
+        - /privacy-policy
+        - /Modern-Slavery-Act-Report
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 10
+    scroll: false
+    headers: {  }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: {  }
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
